@@ -4,7 +4,9 @@
     padding: 0;
 }
 
-
+body{
+    background-color: tomato;
+}
 main {
     width: 90%;
     max-width: 1080px;
@@ -15,25 +17,4 @@ main {
   p {
     font-size: 3em;
     line-height: 1.5;
-  }
-
-  @media (min-width: 100px){
-  body{
-    background: url(https://wallpapercave.com/wp/wp7200278.jpg) no-repeat center center fixed;
-   
-     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-  }
-
-  @media (min-width: 500px){
-    body{
-        background: url(https://japaneselevelup.com/wp-content/uploads/2018/05/Why-Programmers-Like-Japanese-Why-Japanese-Learners-like-Programming-1-min.jpg) no-repeat center center fixed; 
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
   }
