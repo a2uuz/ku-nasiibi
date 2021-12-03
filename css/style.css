@@ -5,14 +5,7 @@
   padding: 0;
 }
 
-html {
+body {
   background: url(https://japaneselevelup.com/wp-content/uploads/2018/05/Why-Programmers-Like-Japanese-Why-Japanese-Learners-like-Programming-1-min.jpg) no-repeat center center fixed;
   background-size: cover;
 }
-
-body {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/*# sourceMappingURL=style.css.map */
