@@ -9,7 +9,7 @@ if (+nasiibi === lambar){
 if(kuNasiibi === true){
 alert(`libax yaa kuu shegay inay jawabtu tahay ${lambar}`);
 }else{
-alert(`jeejee`);
+alert(`waad la waydey muhahahaa`);
 }
 
 
