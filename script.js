@@ -1,5 +1,5 @@
 let kuNasiibi = false;
-var lambar = 101;
+var lambar = 46;
 var nasiibi = prompt(`ku nasiibi lambar 0 - 100 !`);
 
 if (+nasiibi === lambar){
