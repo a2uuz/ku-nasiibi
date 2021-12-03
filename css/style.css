@@ -5,8 +5,33 @@
   padding: 0;
 }
 
+html {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
 body {
-  background-color: tomato;
+  text-align: center;
+  color: #fff;
+  font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 50px;
+  font-weight: 900;
+  background-image: url(https://wallpapercave.com/wp/wp7200278.jpg);
+  background-repeat: no-repeat;
 }
 
 main {
@@ -19,5 +44,19 @@ main {
 p {
   font-size: 3em;
   line-height: 1.5;
+}
+
+@media (min-width: 900px) {
+  body {
+    position: relative;
+  }
+  main {
+    width: 50%;
+    position: absolute;
+    left: 10rem;
+    top: -15rem;
+    color: black;
+    font-size: smaller;
+  }
 }
 /*# sourceMappingURL=style.css.map */

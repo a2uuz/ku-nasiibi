@@ -4,10 +4,28 @@
     padding: 0;
 }
 
-body{
-    background-color: tomato;
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
 }
-main {
+
+body {
+    text-align: center;
+    color: #fff;
+    font-family: "Gotham Rounded A", "Gotham Rounded B", "Gotham Rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    font-size:50px;
+    font-weight: 900;
+    background-image: url(https://wallpapercave.com/wp/wp7200278.jpg);
+    background-repeat: no-repeat;
+
+    
+  }
+  
+  main {
     width: 90%;
     max-width: 1080px;
     padding: 50px 0 0;
@@ -18,3 +36,20 @@ main {
     font-size: 3em;
     line-height: 1.5;
   }
+
+
+  @media (min-width: 900px){
+
+    body{
+    position: relative;
+    }
+    main{
+        width: 50%;
+        position: absolute;
+        left: 10rem;
+        top: -15rem;
+        color: black;
+        font-size: smaller;
+        
+    }
+   }

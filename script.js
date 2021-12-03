@@ -7,15 +7,10 @@ if (+nasiibi === lambar){
 }
 
 if(kuNasiibi === true){
-alert(`libax yaa kuu shegay inay jawabtu tahay ${lambar}`);
+  document.querySelector('main').innerHTML = `libax yaa kuu shegay inay jawabtu tahay ${lambar}`;
 }else{
-alert(`waad la waydey muhahahaa`);
+  document.querySelector('main').innerHTML = `ax miskiin waad garan waydey! 😂 refresh garee page ka oo iskuday mar kale 😈`;
 }
-
-
-
-
-
 
 
 
